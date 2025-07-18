@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun Flower</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+<body class="bg-purple-300">
+  <nav class=" border-gray-200 dark:bg-purple-500">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="https://i.pinimg.com/736x/39/3b/b1/393bb1bb15940aea508dd07c5da23917.jpg"class="h-12" alt="Coffee Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">CoffeeOundomMean</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-purple-700 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class=" flex font-medium  flex-row p-7 gap-1 md:p-0 mt-4  bg-purple-500 ">
+        <li>
+          <a href="./about.html" class="block py-2 px-3 text-white bg-purple-300  rounded-sm " aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="./Menu.html" class="block py-2 px-3 text-white bg-purple-300  rounded-sm " aria-current="page">ABout</a>
+        </li>   
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-purple-300  rounded-sm " aria-current="page">Content</a>
+        </li>   
+        <li>
+          <a href="#" class="block py-2 px-3 text-white bg-purple-300  rounded-sm " aria-current="page">Other</a>
+        </li>      
+      </ul>
+    </div>
+  </div>
+</nav>
+  <!-- Demo content below navbar -->
+  <div class="max-w-4xl mx-auto mt-10 p-6 bg-white/90 rounded-2xl shadow-lg flex flex-col lg:flex-row gap-6">
+  <!-- Image Section -->
+   <div class="bg-[url('https://i.pinimg.com/736x/5d/6c/67/5d6c677f8707480bbb97e4e9a45bee8d.jpg')] bg-cover bg-center h-64 w-full rounded-xl"></div>
+  <!-- Content Section -->
+  <div class="lg:w-1/2 flex flex-col justify-center text-center lg:text-left">
+    <h2 class="text-4xl font-extrabold text-pink-600 mb-4">Welcome to PinkyShop!</h2>
+    <p class="text-pink-800 mb-4 text-lg">
+      Discover beautiful, handpicked items made just for you. This card is fully responsive, clean, and elegant. Works great on all screens!
+    </p>
+    <button class="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-6 rounded-xl transition duration-300">
+      Shop Now
+    </button>
+  </div>
+</div>
+<div class="bg-yellow-50">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 p-6">
+        <!-- Card 1 -->
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="flex justify-center items-center">
+            <div class="max-w-xs rounded-lg overflow-hidden bg-pink-100 hover:bg-[rgb(245,183,177)] shadow-lg transition-colors duration-300">
+                <div class="aspect-[3/3] w-full">
+                    <img class="w-full h-full object-cover rounded-t-lg" src="https://i.pinimg.com/736x/88/02/52/8802520ee69d3a22235f176ed64eab60.jpg" alt="Flower Image 1">
+                </div>
+                <div class="px-6 py-4">
+                    <div class="font-bold font-sans text-lg text-gray-800 text-center mb-2">The flower is cool</div>
+                    <p class="text-yellow-800 text-base font-sans text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2 px-6 pb-4">
+                    <a href="https://www.youtube.com/watch?v=jRgZ6KQ9qrs" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full block text-center">Button</a>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded w-full flex items-center justify-center">
+                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                        <span>Download</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="flex justify-center items-center">
+            <div class="max-w-xs rounded-lg overflow-hidden bg-pink-100 hover:bg-[rgb(245,183,177)] shadow-lg transition-colors duration-300">
+                <div class="aspect-[3/3] w-full">
+                    <img class="w-full h-full object-cover rounded-t-lg" src="https://i.pinimg.com/736x/94/28/ce/9428cece2d6ed14ffe93d0e89e0db8ea.jpg" alt="Flower Image 2">
+                </div>
+                <div class="px-6 py-4">
+                    <div class="font-bold font-sans text-lg text-gray-800 text-center mb-2">The flower is cool</div>
+                    <p class="text-yellow-800 text-base font-sans text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2 px-6 pb-4">
+                    <a href="https://www.youtube.com/watch?v=jRgZ6KQ9qrs" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full block text-center">Button</a>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded w-full flex items-center justify-center">
+                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                        <span>Download</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" class="flex justify-center items-center">
+            <div class="max-w-xs rounded-lg overflow-hidden bg-pink-100 hover:bg-[rgb(245,183,177)] shadow-lg transition-colors duration-300">
+                <div class="aspect-[3/3] w-full">
+                    <img class="w-full h-full object-cover rounded-t-lg" src="https://i.pinimg.com/736x/b5/09/b6/b509b69b9a8fb629158f3b308efb6290.jpg" alt="Flower Image 3">
+                </div>
+                <div class="px-6 py-4">
+                    <div class="font-bold font-sans text-lg text-gray-800 text-center mb-2">The flower is cool</div>
+                    <p class="text-yellow-800 text-base font-sans text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2 px-6 pb-4">
+                    <a href="https://www.youtube.com/watch?v=jRgZ6KQ9qrs" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full block text-center">Button</a>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded w-full flex items-center justify-center">
+                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                        <span>Download</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="500" data-aos-duration="1000" class="flex justify-center items-center">
+            <div class="max-w-xs rounded-lg overflow-hidden bg-pink-100 hover:bg-[rgb(245,183,177)] shadow-lg transition-colors duration-300">
+                <div class="aspect-[3/3] w-full">
+                    <img class="w-full h-full object-cover rounded-t-lg" src="https://i.pinimg.com/736x/99/c3/80/99c380c817621a0a17f4493af1d27e7a.jpg" alt="Flower Image 4">
+                </div>
+                <div class="px-6 py-4">
+                    <div class="font-bold font-sans text-lg text-gray-800 text-center mb-2">The flower is cool</div>
+                    <p class="text-yellow-800 text-base font-sans text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="flex flex-col sm:flex-row gap-2 px-6 pb-4">
+                    <a href="https://www.youtube.com/watch?v=jRgZ6KQ9qrs" target="_blank" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full block text-center">Button</a>
+                    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded w-full flex items-center justify-center">
+                        <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
+                        <span>Download</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-purple-200 min-h-screen">
+        <div class="max-w-7xl mx-auto p-6" data-aos="fade-up" data-aos-offset="200" data-aos-delay="500" data-aos-duration="1000">
+            <h1 class="text-3xl font-bold mb-8 text-center text-purple-900">Shopping Cart</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Card 1 -->
+                <div class="flex bg-white rounded-xl shadow hover:shadow-lg transition p-5 gap-5 items-center">
+                    <img src="https://i.pinimg.com/736x/37/5c/13/375c13e4edd4a48ead8b8c2a826378ce.jpg" alt="Basic Tee" class="w-32 h-32 object-cover rounded-lg border-2 border-pink-200">
+                    <div class="flex-1 flex flex-col justify-between h-full">
+                        <div>
+                            <h2 class="font-bold text-lg text-pink-800 mb-1">Basic Tee</h2>
+                            <div class="text-sm text-gray-400 mb-1">Black / Large</div>
+                            <p class="font-semibold text-pink-600 mb-2">$32.00</p>
+                            <div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/>
+                                </svg>
+                                Ships in 3–4 weeks
+                            </div>
+                        </div>
+                        <div class="flex gap-2 items-center mt-2">
+                            <select class="border rounded px-2 py-1">
+                                <option>1</option><option>2</option><option>3</option>
+                                <option>4</option><option>5</option><option>6</option>
+                            </select>
+                            <button class="shop-btn bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded transition">Shop</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="flex bg-white rounded-xl shadow hover:shadow-lg transition p-5 gap-5 items-center">
+                    <img src="https://i.pinimg.com/736x/04/a2/da/04a2daf61e7e32ca3d2fa9164bfc9d0d.jpg" alt="Basic Tee" class="w-32 h-32 object-cover rounded-lg border-2 border-pink-200">
+                    <div class="flex-1 flex flex-col justify-between h-full">
+                        <div>
+                            <h2 class="font-bold text-lg text-pink-800 mb-1">Basic Tee</h2>
+                            <div class="text-sm text-gray-400 mb-1">Black / Large</div>
+                            <p class="font-semibold text-pink-600 mb-2">$32.00</p>
+                            <div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/>
+                                </svg> Ships in 3–4 weeks
+                            </div>
+                        </div>
+                        <div class="flex gap-2 items-center mt-2">
+                            <select class="border rounded px-2 py-1">
+                                <option>1</option><option>2</option><option>3</option>
+                                <option>4</option><option>5</option><option>6</option>
+                            </select>
+                            <button class="shop-btn bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded transition">Shop</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="flex bg-white rounded-xl shadow hover:shadow-lg transition p-5 gap-5 items-center">
+                    <img src="https://i.pinimg.com/736x/43/92/53/43925343e4bef3e0c89ef1a5d9851b08.jpg" alt="Basic Tee" class="w-32 h-32 object-cover rounded-lg border-2 border-pink-200">
+                    <div class="flex-1 flex flex-col justify-between h-full">
+                        <div>
+                            <h2 class="font-bold text-lg text-pink-800 mb-1">Basic Tee</h2>
+                            <div class="text-sm text-gray-400 mb-1">Black / Large</div>
+                            <p class="font-semibold text-pink-600 mb-2">$32.00</p>
+                            <div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/>
+                                </svg> Ships in 3–4 weeks
+                            </div>
+                        </div>
+                        <div class="flex gap-2 items-center mt-2">
+                            <select class="border rounded px-2 py-1">
+                                <option>1</option><option>2</option><option>3</option>
+                                <option>4</option><option>5</option><option>6</option>
+                            </select>
+                            <button class="shop-btn bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded transition">Shop</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="flex bg-white rounded-xl shadow hover:shadow-lg transition p-5 gap-5 items-center">
+                    <img src="https://i.pinimg.com/736x/b6/b9/47/b6b94769f5b1aaf2cbf6ed6102c974b4.jpg" alt="Basic Tee" class="w-32 h-32 object-cover rounded-lg border-2 border-pink-200">
+                    <div class="flex-1 flex flex-col justify-between h-full">
+                        <div>
+                            <h2 class="font-bold text-lg text-pink-800 mb-1">Basic Tee</h2>
+                            <div class="text-sm text-gray-400 mb-1">Black / Large</div>
+                            <p class="font-semibold text-pink-600 mb-2">$32.00</p>
+                            <div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/>
+                                </svg> Ships in 3–4 weeks
+                            </div>
+                        </div>
+                        <div class="flex gap-2 items-center mt-2">
+                            <select class="border rounded px-2 py-1">
+                                <option>1</option><option>2</option><option>3</option>
+                                <option>4</option><option>5</option><option>6</option>
+                            </select>
+                            <button class="shop-btn bg-blue-500 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded transition">Shop</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div> 
+<div class="bg-pink-50">
+  <div class="max-w-2xl mx-auto px-2 py-8">
+    <div id="product-list" class="space-y-5">
+      <!-- Product Card START -->
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/f0/b1/15/f0b11566c73e9037f0bbde24a04455fc.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Product Card END -->
+    <!-- Copy/Paste and change only image for each product -->
+<div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card"data-aos-offset="200"
+    data-aos-delay="500"
+    data-aos-duration="1000" tabindex="0">
+        <img src="https://i.pinimg.com/736x/d6/ae/6d/d6ae6d371bc1307af768420b9b45d7ce.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/be/0b/58/be0b58d595aa35582376dae2070bf93f.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/50/4b/69/504b6989a1adee1f8d2961d4bfe44251.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/bd/a4/5a/bda45ab347998087cea9b26d4101dae6.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/46/7d/e8/467de86b0854803d2d84521bb6553c86.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+      <div class="group flex flex-col sm:flex-row items-stretch sm:items-start gap-4 sm:gap-6 bg-white rounded-xl shadow transition border-2 border-transparent hover:border-pink-400 hover:bg-pink-100 cursor-pointer product-card" tabindex="0">
+        <img src="https://i.pinimg.com/736x/ae/1a/4a/ae1a4abc0cd08584b465d5661bda2f68.jpg" class="w-full sm:w-24 h-32 sm:h-24 object-cover rounded-md border border-pink-200 bg-white" alt="Basic Tee">
+        <div class="flex-1 flex flex-col justify-between py-1">
+          <div>
+            <h2 class="font-semibold text-lg text-pink-800">Basic Tee</h2>
+            <div class="text-sm text-gray-500 mb-1 font-medium">Black / Large</div>
+            <p class="font-bold text-pink-600">$32.00</p>
+          </div>
+          <div class="flex items-center gap-2 mt-3 text-gray-500 text-sm">
+            <svg class="w-4 h-4 text-pink-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"></path></svg>
+            Ships in 3–4 weeks
+          </div>
+        </div>
+        <div class="flex sm:flex-col gap-2 items-end sm:items-end justify-end sm:justify-normal py-2 sm:py-0 px-1">
+          <select class="border border-pink-300 rounded px-3 py-1 text-base focus:ring-2 focus:ring-pink-300 focus:border-pink-400 transition">
+            <option>1</option><option>2</option><option>3</option>
+            <option>4</option><option>5</option><option>6</option>
+          </select>
+          <button class="shop-btn bg-gradient-to-r from-pink-500 to-pink-400 hover:from-pink-600 hover:to-pink-500 text-white font-semibold px-4 py-1.5 rounded-md shadow transition active:scale-95">Add to Cart</button>
+        </div>
+      </div>
+      <!-- Product Card END -->
+    </div>
+  </div>
+</div>
+  <div class="grid md:grid-cols-3 md-grid-row-2 gap-8 "data-aos-offset="200"
+    data-aos-delay="500"
+    data-aos-duration="1000">
+      <!-- Cart Items -->
+      <div class="md:col-span-2  md:-span-2 space-y-8">
+        <!-- Item 1 -->
+        <div class="flex items-center gap-6 hover:bg-pink-300  border-b pb-6"data-aos="fade-up"data-aos-delay="500"data-aos-duration="1000">
+          <img src="https://i.pinimg.com/736x/7e/fe/87/7efe87e8d7e5440e19ce35dcad2d932e.jpg" class="w-32  object-cover rounded"/>
+          <div class="flex-1">
+            <h2 class="text-lg font-medium">Basic Tee</h2>
+            <p class="text-sm text-gray-600">Sienna &middot; Large</p>
+            <p class="mt-2 font-semibold">$32.00</p>
+            <p class="text-green-600 text-sm mt-1">✔ In stock</p>
+          </div>
+          <div>
+          <select class="border rounded px-2 py-1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+          </select>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="flex items-center gap-6  hover:bg-pink-300"data-aos="fade-up"data-aos-delay="500"data-aos-duration="1000">
+          <img src="https://i.pinimg.com/736x/ff/3f/ca/ff3fca10e36940f32c4a836cf42b6e38.jpg"class="w-32 object-cover rounded"/>
+          <div class="flex-1">
+            <h2 class="text-lg font-medium">Basic Tee</h2>
+            <p class="text-sm text-gray-600">Black &middot; Large</p>
+            <p class="mt-2 font-semibold">$32.00</p>
+            <p class="text-sm text-gray-500 mt-1">⏱ Ships in 3–4 weeks</p>
+          </div>
+          <div>
+            <select class="border rounded px-2 py-1">
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <!-- Order Summary -->
+      <div class="bg-purple-100 hover:bg-pink-200 shadow-lg rounded-xl p-6" data-aos-offset="200"
+    data-aos-delay="500"
+    data-aos-duration="1000">
+        <h2 class="text-xl font-semibold mb-6">Order summary</h2>
+        <div class="flex justify-between mb-2">
+          <span>Subtotal</span>
+          <span>$99.00</span>
+        </div>
+        <div class="flex justify-between mb-2">
+          <span>Shipping estimate</span>
+          <span>$5.00</span>
+        </div>
+        <div class="flex justify-between mb-4">
+          <span>Tax estimate</span>
+          <span>$8.32</span>
+        </div>
+        <div class="flex justify-between text-lg font-bold border-t pt-4 mb-6">
+          <span>Order total</span>
+          <span>$112.32</span>
+        </div>
+    <!-- Button 2 (Checkout) -->
+      <button id="alt1" onclick="checkoutAction()" class="w-full bg-pink-300 text-white font-semibold py-3 rounded-lg hover:bg-pink-700 transition mt-4 max-w-xs">Checkout</button>
+      </div>
+    </div>
+  </div>  
+<div class="bg-yellow-100 min-h-screen flex items-center justify-center py-8"data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-delay="500"
+    data-aos-duration="1000" >
+  <div class="w-full max-w-5xl flex flex-col md:flex-row gap-8 px-2">
+    <!-- Big Card - Column 1 -->
+    <div class="flex-1 flex items-center justify-center">
+      <div class="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
+        <div class="flex flex-col items-center text-center">
+          <div class="text-6xl mb-4">🌹</div>
+          <img src="https://i.pinimg.com/736x/ba/48/e2/ba48e29d4c9938cb92ff43303bd99385.jpg"
+               alt="Adorable red rose with a gentle blush"
+               class="w-64 h-64 object-cover rounded-xl border-4 border-pink-300 mb-6 shadow">
+          <h1 class="text-3xl font-extrabold text-pink-800 mb-2">Red Rose</h1>
+          <h2 class="text-xl font-semibold text-pink-700 mb-4">The Queen of Flowers</h2>
+          <p class="text-gray-700 mb-4">
+            The red rose is a classic symbol of <span class="font-bold text-pink-600">love</span>, <span class="font-bold text-pink-600">passion</span>, and <span class="font-bold text-pink-600">romance</span>. Its velvety petals and enchanting fragrance have inspired poets, artists, and lovers for centuries.
+          </p>
+          <ul class="text-left list-disc list-inside text-pink-700 mb-4">
+            <li><span class="font-semibold">Color:</span> Deep, vibrant red</li>
+            <li><span class="font-semibold">Meaning:</span> Love, admiration, respect</li>
+            <li><span class="font-semibold">Occasions:</span> Anniversaries, Valentine’s Day, Weddings</li>
+            <li><span class="font-semibold">Fragrance:</span> Sweet & classic</li>
+            <li><span class="font-semibold">Care:</span> Keep in cool water, trim stems</li>
+          </ul>
+          <div class="text-2xl font-bold text-pink-600 mb-4">$10.00</div>
+          <button class="bg-pink-500 hover:bg-pink-700 text-white font-semibold py-3 px-8 rounded-lg mb-2 text-lg trans Buy Now
+          </button>
+          <div class="mt-4 text-sm text-gray-500 italic">“A single rose can be my garden... a single friend, my world.” — Leo Buscaglia
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slider - Column 2 -->
+    <div class="flex-1 flex items-center justify-center">
+      <div class="w-full max-w-xs p-4">
+        <div id="slider" class="relative">
+          <!-- Flower Card Slides -->
+          <div id="slide0" class="slide">
+            <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+              <div class="text-4xl mb-2">🌺</div>
+              <img src="https://i.pinimg.com/736x/37/5c/13/375c13e4edd4a48ead8b8c2a826378ce.jpg"
+                   alt="Adorable red rose with a gentle blush"
+                   class="w-100 h-100 object-cover mx-auto rounded border-2 border-pink-300 mb-4">
+              <h2 class="text-xl font-bold text-pink-800 mb-2 flex items-center justify-center gap-2">Red Rose <span>🌹</span></h2>
+              <p class="text-pink-600 text-lg mb-4">$10.00</p>
+              <button onclick="buyFlower(0)"
+                      class="bg-pink-500 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded transition">Buy Flower
+              </button>
+              <div id="thankYou0" class="mt-4 text-green-700 font-semibold hidden">
+                🎉 Thank you for buying the flower! 🌹
+              </div>
+            </div>
+          </div>
+          <div id="slide1" class="slide hidden">
+            <div class="bg-white shadow-lg rounded-xl p-6 text-center">
+              <div class="text-4xl mb-2 ">🏵️</div>
+              <img src="https://i.pinimg.com/736x/04/a2/da/04a2daf61e7e32ca3d2fa9164bfc9d0d.jpg"
+                   alt="Sweet white rose with soft petals, so cute"
+                   class="w-100 h-100 object-cover mx-auto rounded border-2 border-pink-300 mb-4">
+              <h2 class="text-xl font-bold text-pink-800 mb-2 flex items-center justify-center gap-2">White Rose <span>🍃</span></h2>
+              <p class="text-pink-600 text-lg mb-4">$11.00</p>
+              <button onclick="buyFlower(1)"
+                      class="bg-pink-500 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded transition">
+                Buy Flower
+              </button>
+              <div id="thankYou1" class="mt-4 text-green-700 font-semibold hidden">
+                🎉 Thank you for buying the flower! 🏵️
+              </div>
+            </div>
+          </div>
+          <div id="slide2" class="slide hidden">
+            <div class="bg-pink-100 shadow-lg rounded-xl p-6 text-center">
+              <div class="text-4xl mb-2">🌷</div>
+              <img src="https://i.pinimg.com/736x/43/92/53/43925343e4bef3e0c89ef1a5d9851b08.jpg"
+                   alt="Lovely pink rose with a soft, cute charm"
+                   class="w-100 h-100 object-cover mx-auto rounded border-2 border-pink-300 mb-4">
+              <h2 class="text-xl font-bold text-pink-800 mb-2 flex items-center justify-center gap-2">Pink Rose <span>🪻</span></h2>
+              <p class="text-pink-600 text-lg mb-4">$12.00</p>
+              <button onclick="buyFlower(2)"
+                      class="bg-pink-500 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded transition">
+                Buy Flower
+              </button>
+              <div id="thankYou2" class="mt-4 text-green-700 font-semibold hidden">
+                🎉 Thank you for buying the flower! 🌷
+              </div>
+            </div>
+          </div>
+          <div id="slide3" class="slide hidden">
+            <div class="bg-pink-100 shadow-lg rounded-xl p-6 text-center">
+              <div class="text-4xl mb-2">🌻</div>
+              <img src="https://i.pinimg.com/736x/b6/b9/47/b6b94769f5b1aaf2cbf6ed6102c974b4.jpg"
+                   alt="Cute yellow rose shining bright and happy"
+                   class="w-100 h-100 object-cover mx-auto rounded border-2 border-pink-300 mb-4">
+              <h2 class="text-xl font-bold text-pink-800 mb-2 flex items-center justify-center gap-2">Yellow Rose <span>🍀</span></h2>
+              <p class="text-pink-600 text-lg mb-4">$13.00</p>
+              <button onclick="buyFlower(3)"
+                      class="bg-pink-500 hover:bg-pink-700 text-white font-semibold py-2 px-6 rounded transition">
+                Buy Flower
+              </button>
+              <div id="thankYou3" class="mt-4 text-green-700 font-semibold hidden">
+                🎉 Thank you for buying the flower! 🌻
+              </div>
+            </div>
+          </div>
+          <!-- Slide Controls -->
+          <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-pink-200 rounded-full px-2 py-1 shadow text-xl font-bold z-10" aria-label="Previous">
+            &#8592;
+          </button>
+          <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 bg-white bg-opacity-80 hover:bg-pink-200 rounded-full px-2 py-1 shadow text-xl font-bold z-10" aria-label="Next">
+            &#8594;
+          </button>
+          <!-- Dots -->
+          <div class="flex justify-center mt-4 gap-2">
+            <span class="dot w-3 h-3 rounded-full bg-pink-400 inline-block cursor-pointer" onclick="gotoSlide(0)"></span>
+            <span class="dot w-3 h-3 rounded-full bg-pink-200 inline-block cursor-pointer" onclick="gotoSlide(1)"></span>
+            <span class="dot w-3 h-3 rounded-full bg-pink-200 inline-block cursor-pointer" onclick="gotoSlide(2)"></span>
+            <span class="dot w-3 h-3 rounded-full bg-pink-200 inline-block cursor-pointer" onclick="gotoSlide(3)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+
+      // Mobile menu toggle logic
+    const menuBtn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    const iconMenu = document.getElementById('icon-menu');
+    const iconClose = document.getElementById('icon-close');
+    menuBtn.addEventListener('click', () => {
+      if(menu.style.display === 'none' || menu.style.display === '') {
+        menu.style.display = 'block';
+        iconMenu.classList.add('hidden');
+        iconClose.classList.remove('hidden');
+      } else {
+        menu.style.display = 'none';
+        iconMenu.classList.remove('hidden');
+        iconClose.classList.add('hidden');
+      }
+    });
+    let current = 0;
+    const total = 4;
+
+    function showSlide(idx) {
+      for (let i = 0; i < total; i++) {
+        document.getElementById('slide' + i).classList.add('hidden');
+        document.querySelectorAll('.dot')[i].classList.remove('bg-pink-400');
+        document.querySelectorAll('.dot')[i].classList.add('bg-pink-200');
+      }
+      document.getElementById('slide' + idx).classList.remove('hidden');
+      document.querySelectorAll('.dot')[idx].classList.add('bg-pink-400');
+    }
+
+    function gotoSlide(idx) {
+      current = idx;
+      showSlide(current);
+    }
+
+    document.getElementById('prevBtn').onclick = function() {
+      current = (current - 1 + total) % total;
+      showSlide(current);
+    };
+    document.getElementById('nextBtn').onclick = function() {
+      current = (current + 1) % total;
+      showSlide(current);
+    };
+
+    function buyFlower(idx) {
+      document.getElementById("thankYou"+idx).classList.remove("hidden");
+    }
+
+    // Init
+    showSlide(0);
+  </script>
+</div>
+<footer class="bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 text-white py-8 mt-10 rounded-t-3xl shadow-2xl">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+      <!-- Logo or Brand -->
+      <div class="flex items-center text-2xl font-extrabold mb-4 md:mb-0 tracking-tight">
+        <span class="mr-2 animate-bounce">🌸</span>
+        <span class="bg-white bg-opacity-10 px-3 py-1 rounded-lg shadow-md">Flower Shop</span>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="flex space-x-4 md:space-x-8">
+        <a href="#" class="relative group font-medium transition">
+          <span class="text-white group-hover:text-yellow-200 group-hover:drop-shadow-glow">Home</span>
+          <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-200 transition-all group-hover:w-full"></span>
+        </a>
+        <a href="#" class="relative group font-medium transition">
+          <span class="text-white group-hover:text-yellow-200 group-hover:drop-shadow-glow">About</span>
+          <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-200 transition-all group-hover:w-full"></span>
+        </a>
+        <a href="#" class="relative group font-medium transition">
+          <span class="text-white group-hover:text-yellow-200 group-hover:drop-shadow-glow">Shop</span>
+          <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-200 transition-all group-hover:w-full"></span>
+        </a>
+        <a href="#" class="relative group font-medium transition">
+          <span class="text-white group-hover:text-yellow-200 group-hover:drop-shadow-glow">Contact</span>
+          <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-yellow-200 transition-all group-hover:w-full"></span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Bottom text -->
+    <div class="text-center text-sm text-pink-100 mt-6 tracking-wide">
+      &copy; 2025 <span class="font-semibold">Flower Shop</span>. All rights reserved.
+    </div>
+  </div>
+   <div data-aos="fade-down"
+    data-aos-offset="200"
+    data-aos-delay="100"
+    data-aos-duration="900"
+    data-aos-easing="ease-in-out"
+    class="bg-pink-200 flex justify-center items-center bg-purple-300 ">
+    <div class="max-w-sm w-full lg:max-w-full lg:flex">
+        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+        </div>
+        <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+            <div class="mb-8">
+            <div class="text-gray-900 font-bold text-4xl mb-2 font-serif text-purple-800 text-center "data-aos="fade-in"data-aos-id="super-duper">Who is she ?</div>
+            <p class="text-purple-900 text-base font-serif text-lg text-gray-800 text-center  ">On the frontend, I’m skilled in HTML, CSS, JavaScript, and modern frameworks like React and Vue.js. On the backend, I work with Node.js, Express, and Python (Django/Flask), along with REST APIs and database systems like MySQL, PostgreSQL, and MongoDB.</p>
+            </div>
+            <div class="flex items-center">
+            <img class="w-10 h-13 rounded-full mr-4" src="../imgperson.jpg" alt="Avatar of Jonathan Reinink">
+            <div class="text-sm">
+                <p class="text-purple-900 leading-none font-bold">Phoeung Sreymean</p>
+                <p class="text-purple-600">CEO</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</footer>
+</body>
+</html>    
+
+
+  <script>
+     // Tailwind version: handle "active" styling and button
+    document.querySelectorAll('.product-card').forEach(card => {
+      card.querySelector('.shop-btn').addEventListener('click', function(e) {
+        e.stopPropagation();
+        // Remove active/add to cart on all
+        document.querySelectorAll('.product-card').forEach(c => {
+          c.classList.remove('border-pink-600', 'bg-pink-100', 'ring-2', 'ring-pink-400');
+          let btn = c.querySelector('.shop-btn');
+          btn.classList.remove('bg-green-400', 'text-gray-800', 'cursor-default');
+          btn.classList.add('bg-gradient-to-r', 'from-pink-500', 'to-pink-400', 'text-white');
+          btn.textContent = 'Add to Cart';
+        });
+        // Add active/add to cart on this
+        card.classList.add('border-pink-600', 'bg-pink-100', 'ring-2', 'ring-pink-400');
+        this.classList.remove('bg-gradient-to-r', 'from-pink-500', 'to-pink-400', 'text-white');
+        this.classList.add('bg-green-400', 'text-gray-800', 'cursor-default');
+        this.textContent = 'Added!';
+      });
+      // Clicking the card area highlights it (but doesn't affect button)
+      card.addEventListener('click', function(e) {
+        if (!e.target.classList.contains('shop-btn')) {
+          document.querySelectorAll('.product-card').forEach(c => c.classList.remove('border-pink-600', 'bg-pink-100', 'ring-2', 'ring-pink-400'));
+          card.classList.add('border-pink-600', 'bg-pink-100', 'ring-2', 'ring-pink-400');
+        }
+      });
+    });
+    // Function to simulate a click on Button 2
+    function triggerCheckout() {
+      document.getElementById('alt1').click();
+    }
+
+    // Function that runs when Checkout is clicked
+    function checkoutAction() {
+      alert("អរគុណសម្រាប់ការកម្មង់ សូមរងចាំ​ ២០ នាទីក្រោយមក");
+    }
+
+    // Select all "Shop" buttons
+    document.querySelectorAll('.shop-btn').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        this.textContent = "Can Shop";
+      });
+    });
+
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
